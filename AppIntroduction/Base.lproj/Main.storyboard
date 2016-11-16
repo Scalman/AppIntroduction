@@ -65,10 +65,10 @@
             </objects>
             <point key="canvasLocation" x="736.23188405797111" y="-134.5108695652174"/>
         </scene>
-        <!--View Controller-->
+        <!--ThirdVC-->
         <scene sceneID="FKs-Yp-ig6">
             <objects>
-                <viewController restorationIdentifier="ThirdVC" storyboardIdentifier="ThirdVC" id="Xew-Qg-1XL" sceneMemberID="viewController">
+                <viewController restorationIdentifier="ThirdVC" storyboardIdentifier="ThirdVC" id="Xew-Qg-1XL" customClass="ThirdVC" customModule="AppIntroduction" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="QI3-bS-sw9"/>
                         <viewControllerLayoutGuide type="bottom" id="CF9-BU-VmB"/>
@@ -78,21 +78,24 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BigCloud" translatesAutoresizingMaskIntoConstraints="NO" id="rSS-ax-Jdk">
-                                <rect key="frame" x="75" y="150" width="265" height="248"/>
+                                <rect key="frame" x="110" y="149" width="265" height="248"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6NV-Pu-uat">
-                                <rect key="frame" x="20" y="599" width="374" height="95"/>
+                                <rect key="frame" x="38" y="597" width="338" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.50837805060800567" blue="0.0023150858697961185" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.99215686274509807" green="0.95294117647058818" blue="0.90588235294117647" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <state key="normal" title="Get Ready">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="0.23137254901960785" green="0.21568627450980393" blue="0.2196078431372549" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="getReadyBtn" destination="6NV-Pu-uat" id="IPL-hE-Qoj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8u3-44-P0i" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

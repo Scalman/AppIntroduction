@@ -40,18 +40,20 @@ class PageVC: UIPageViewController, UIPageViewControllerDataSource, UIPageViewCo
         imageView!.frame = UIScreen.main.bounds
         view.insertSubview(imageView!, at: 0)*/
         
-        self.view.backgroundColor = UIColor.gray
+        //#FDF3E7
         
-        self.cloud = UIImageView(image: UIImage(named: "cloud")!)
+        self.view.backgroundColor = UIColor(red:0.23, green:0.22, blue:0.22, alpha:1.0)
+        
+        self.cloud = UIImageView(image: UIImage(named: "white")!)
         self.cloud?.center.x = view.frame.width / 5
         view.insertSubview(cloud!, at: 1)
         
-        self.cloudFar = UIImageView(image: UIImage(named: "cloudFar")!)
+        self.cloudFar = UIImageView(image: UIImage(named: "orange")!)
         self.cloudFar?.center.y = view.frame.height / 5
         self.cloudFar?.center.x = view.frame.width - (view.frame.width / 10)
         view.insertSubview(cloudFar!, at: 2)
         
-        self.cloudMiddle = UIImageView(image: UIImage(named: "cloud")!)
+        self.cloudMiddle = UIImageView(image: UIImage(named: "green")!)
         self.cloudMiddle?.center.y = view.frame.height / 3
         self.cloudMiddle?.center.x = view.frame.width / 15
         view.insertSubview(cloudMiddle!, at: 3)
@@ -72,7 +74,9 @@ class PageVC: UIPageViewController, UIPageViewControllerDataSource, UIPageViewCo
         
     }
     
-    var lastContentOffset: CGFloat = 414
+    override var prefersStatusBarHidden: Bool {
+        return true
+    }
     
     /**
     *Gets The Position Of How Much The View Has Been Moved By The User.
