@@ -9,11 +9,16 @@
 /* Begin PBXBuildFile section */
 		541E373D1DCB68DD00CDD5EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541E373C1DCB68DD00CDD5EB /* AppDelegate.swift */; };
 		541E37421DCB68DD00CDD5EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 541E37401DCB68DD00CDD5EB /* Main.storyboard */; };
-		541E37441DCB68DD00CDD5EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 541E37431DCB68DD00CDD5EB /* Assets.xcassets */; };
 		541E37471DCB68DD00CDD5EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 541E37451DCB68DD00CDD5EB /* LaunchScreen.storyboard */; };
 		541E37521DCB68DD00CDD5EB /* AppIntroductionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541E37511DCB68DD00CDD5EB /* AppIntroductionTests.swift */; };
 		541E375D1DCB68DD00CDD5EB /* AppIntroductionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541E375C1DCB68DD00CDD5EB /* AppIntroductionUITests.swift */; };
 		541E376B1DCB6E3600CDD5EB /* PageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541E376A1DCB6E3600CDD5EB /* PageVC.swift */; };
+		691344681DD2895F0061248F /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 691344671DD2895F0061248F /* Login.storyboard */; };
+		6913446A1DD35EA30061248F /* ACGateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691344691DD35EA30061248F /* ACGateVC.swift */; };
+		6913446C1DD37B780061248F /* PopLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6913446B1DD37B780061248F /* PopLoginVC.swift */; };
+		6913446E1DD3C3500061248F /* PopSignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6913446D1DD3C3500061248F /* PopSignUpVC.swift */; };
+		694637041DDC14F600FEDC97 /* FirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694637031DDC14F600FEDC97 /* FirstVC.swift */; };
+		694637061DDC1EA700FEDC97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 694637051DDC1EA700FEDC97 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +42,6 @@
 		541E37391DCB68DD00CDD5EB /* AppIntroduction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppIntroduction.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		541E373C1DCB68DD00CDD5EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		541E37411DCB68DD00CDD5EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		541E37431DCB68DD00CDD5EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		541E37461DCB68DD00CDD5EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		541E37481DCB68DD00CDD5EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		541E374D1DCB68DD00CDD5EB /* AppIntroductionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppIntroductionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +51,12 @@
 		541E375C1DCB68DD00CDD5EB /* AppIntroductionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntroductionUITests.swift; sourceTree = "<group>"; };
 		541E375E1DCB68DD00CDD5EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		541E376A1DCB6E3600CDD5EB /* PageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageVC.swift; sourceTree = "<group>"; };
+		691344671DD2895F0061248F /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		691344691DD35EA30061248F /* ACGateVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACGateVC.swift; sourceTree = "<group>"; };
+		6913446B1DD37B780061248F /* PopLoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopLoginVC.swift; sourceTree = "<group>"; };
+		6913446D1DD3C3500061248F /* PopSignUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopSignUpVC.swift; sourceTree = "<group>"; };
+		694637031DDC14F600FEDC97 /* FirstVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstVC.swift; sourceTree = "<group>"; };
+		694637051DDC1EA700FEDC97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +107,13 @@
 		541E373B1DCB68DD00CDD5EB /* AppIntroduction */ = {
 			isa = PBXGroup;
 			children = (
+				694637051DDC1EA700FEDC97 /* Assets.xcassets */,
+				691344641DD2831B0061248F /* HomePage */,
+				691344631DD283040061248F /* Authentication */,
+				691344621DD281720061248F /* Intro */,
 				541E373C1DCB68DD00CDD5EB /* AppDelegate.swift */,
-				541E37401DCB68DD00CDD5EB /* Main.storyboard */,
-				541E37431DCB68DD00CDD5EB /* Assets.xcassets */,
 				541E37451DCB68DD00CDD5EB /* LaunchScreen.storyboard */,
 				541E37481DCB68DD00CDD5EB /* Info.plist */,
-				541E376A1DCB6E3600CDD5EB /* PageVC.swift */,
 			);
 			path = AppIntroduction;
 			sourceTree = "<group>";
@@ -123,6 +134,34 @@
 				541E375E1DCB68DD00CDD5EB /* Info.plist */,
 			);
 			path = AppIntroductionUITests;
+			sourceTree = "<group>";
+		};
+		691344621DD281720061248F /* Intro */ = {
+			isa = PBXGroup;
+			children = (
+				541E37401DCB68DD00CDD5EB /* Main.storyboard */,
+				541E376A1DCB6E3600CDD5EB /* PageVC.swift */,
+				694637031DDC14F600FEDC97 /* FirstVC.swift */,
+			);
+			name = Intro;
+			sourceTree = "<group>";
+		};
+		691344631DD283040061248F /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				691344671DD2895F0061248F /* Login.storyboard */,
+				691344691DD35EA30061248F /* ACGateVC.swift */,
+				6913446B1DD37B780061248F /* PopLoginVC.swift */,
+				6913446D1DD3C3500061248F /* PopSignUpVC.swift */,
+			);
+			name = Authentication;
+			sourceTree = "<group>";
+		};
+		691344641DD2831B0061248F /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = HomePage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,7 +227,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = SchoolWork;
 				TargetAttributes = {
 					541E37381DCB68DD00CDD5EB = {
@@ -232,8 +271,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				691344681DD2895F0061248F /* Login.storyboard in Resources */,
 				541E37471DCB68DD00CDD5EB /* LaunchScreen.storyboard in Resources */,
-				541E37441DCB68DD00CDD5EB /* Assets.xcassets in Resources */,
+				694637061DDC1EA700FEDC97 /* Assets.xcassets in Resources */,
 				541E37421DCB68DD00CDD5EB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +299,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6913446E1DD3C3500061248F /* PopSignUpVC.swift in Sources */,
+				6913446C1DD37B780061248F /* PopLoginVC.swift in Sources */,
 				541E373D1DCB68DD00CDD5EB /* AppDelegate.swift in Sources */,
 				541E376B1DCB6E3600CDD5EB /* PageVC.swift in Sources */,
+				694637041DDC14F600FEDC97 /* FirstVC.swift in Sources */,
+				6913446A1DD35EA30061248F /* ACGateVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,6 +377,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -382,6 +427,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -503,6 +549,7 @@
 				541E37631DCB68DD00CDD5EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		541E37641DCB68DD00CDD5EB /* Build configuration list for PBXNativeTarget "AppIntroductionTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +558,7 @@
 				541E37661DCB68DD00CDD5EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		541E37671DCB68DD00CDD5EB /* Build configuration list for PBXNativeTarget "AppIntroductionUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +567,7 @@
 				541E37691DCB68DD00CDD5EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
